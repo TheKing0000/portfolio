@@ -22,6 +22,7 @@ const Home = () => {
           <Approach />
           <Footer />
         </div>
+        <h1>Test</h1>
       </main>
     </div>
   );
