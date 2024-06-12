@@ -3,6 +3,8 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { notifyUserWithToast } from "@/lib/toastanimations";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -57,16 +59,17 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+            Hi Jesse! I&apos;m Simon, a Next.js Developer based in Europe.
           </p>
 
-          <a href="#about">
+          <>
             <MagicButton
-              title="Show my work"
+              title="Let's get in touch"
               icon={<FaLocationArrow />}
               position="right"
+              handleClick={notifyUserWithToast}
             />
-          </a>
+          </>
         </div>
       </div>
     </div>

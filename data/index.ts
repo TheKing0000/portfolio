@@ -1,10 +1,3 @@
-export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
-];
-
 export const gridItems = [
   {
     id: 1,
@@ -38,7 +31,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title:
+      "Passionate crypto investor eager to transition into Web3 development.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +43,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title:
+      "Currently working on an innovative crypto portfolio tracker and an AI proof of concept.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +54,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Jesse! Do you want to start a project together?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -173,29 +168,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Engineer - Tech Innovator",
+    desc: "Harnessed the power of React.js - Next.js, TypeScript, and Redux.js to develop sleek, high-performance web applications, delivering top-notch user experiences and cutting-edge functionality.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Solo Project Pioneer",
+    desc: "Successfully executed a complete  website development as the sole developer for SAP, showcasing unparalleled project management skills and the ability to deliver comprehensive solutions independently.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "SAP Consultant - Remote Work Expert",
+    desc: "Enhanced expertise in SAP solutions and maintained productivity while transitioning to remote work, demonstrating flexibility and commitment to excellence.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Agile Development Expert",
+    desc: "Expertly navigated Scrum methodology to ensure agile, high-quality project delivery, enhancing responsiveness and flexibility to meet client needs efficiently.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
